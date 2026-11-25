@@ -1,21 +1,21 @@
 class TokenMonitor < Formula
   desc "Native terminal dashboard for AI subscriptions, quotas, and token ledgers"
   homepage "https://github.com/xzy9565/token-monitor"
-  version "0.2.9"
+  version "0.2.10"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xzy9565/token-monitor/releases/download/v0.2.9/token-monitor-aarch64-apple-darwin.tar.gz"
-      sha256 "d5b9e2cce3adffb2ad7052c06a408369c3d87ccdb94737b70c49b87a756dd0d3"
+      url "https://github.com/xzy9565/token-monitor/releases/download/v0.2.10/token-monitor-aarch64-apple-darwin.tar.gz"
+      sha256 "fc2a2e1c410d6c7ed94d5d59594e463054488438199daaf74cbdd4331a19380d"
     else
-      url "https://github.com/xzy9565/token-monitor/releases/download/v0.2.9/token-monitor-x86_64-apple-darwin.tar.gz"
-      sha256 "62a4d9a3d52d5dbda0307040c53431f9320b2014cf085b7b0d9b5b28d6a0ae76"
+      url "https://github.com/xzy9565/token-monitor/releases/download/v0.2.10/token-monitor-x86_64-apple-darwin.tar.gz"
+      sha256 "1426628dab429fde2e64446435c95cfeb0a0be1a2d1b1574a44640c868be6777"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/xzy9565/token-monitor/releases/download/v0.2.9/token-monitor-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "97c9fe462ebc7a528bef75010d5a8bf12582489d5d91d660ff754cd66c318214"
+      url "https://github.com/xzy9565/token-monitor/releases/download/v0.2.10/token-monitor-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8c786e648cdea15ab97821fe34b3dc02b21cc7422fc8750ab79bbb7182b30803"
     end
   end
 
